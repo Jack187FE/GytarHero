@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecondProject</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d7c7e821e1.js" crossorigin="anonymous"></script>
+    <meta name="description" content="my_second_project_with_sass-flex-bem">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/fav-icon">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/fav-icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/fav-icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/fav-icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/fav-icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/fav-icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/fav-icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/fav-icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/fav-icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/fav-icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/fav-icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/fav-icon/favicon-16x16.png">
+    <link rel="manifest" href="icons/fav-icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/fav-icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Первая секция -->
+    <section class="main-section section">
+        <div class="container main-section__nav-container">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Навигационое меню -->
+            <header class="main-section__header">
+                <a href="#">
+                    <img class="main-section__logo" src="icons/logo.svg" alt="">
+                </a>
+            </header>
+            <nav class="main-section__nav nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="#about-me">Обо мне</a></li>
+                    <li class="nav-menu__list-item"><a href="#teach">Занятия</a></li>
+                    <li class="nav-menu__list-item"><a href="#footer-fot">Запись</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container main-section__content-container">
+            <!-- Left slide -->
+            <div class="lfet-wrapper">
+                <img src="img/Portfolio-photo.png" alt="Portfolio-photo" class="lfet-wrapper__img">
+                <div class="lfet-wrapper__rectangle-blue"></div>
+                <div class="lfet-wrapper__rectangle-orange"></div>
+                <div class="lfet-wrapper__rectangle-grey"></div>
+            </div>
+            <!-- Right slide -->
+            <div class="right-wrapper">
+                <!-- icon box -->
+                <div class="right-wrapper__icons-box icons">
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <!-- right slide info -->
+                </div>
+                <h1 class="right-wrapper__title title">Я виктор
+                    <hr class="title__hr">
+                </h1>
+                <p class="right-wrapper__text">Репетитор игры на гитаре с семилетним опытом преподавания</p>
+                <!-- buttons -->
+                <div class="right-wrapper__button buttons">
+                    <button class="buttons__main-btn">Забронировать <br> урок</button>
+                    <div class="right-wrapper__icon-btn buttons__icon-btn">
+                        <img src="img/icon_chat.svg" alt="" class="wrapper-icon">
+                        <p class="buttons_text">Есть <br> вопросы?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section__circle circle">
+                <div class="circle__subtract"></div>
+            </div>
+        </div>
+        <div class="main-section__second-circle circle circle_big">
+            <div class="circle__subtract circle__subtract_big"></div>
+        </div>
+    </section>
+    <!-- Second section xD -->
+    <section id="about-me" class="second-section section">
+        <div class="container second-section__container ">
+            <h2 class="second-section__title title">Преподаю
+                <hr class="title__hr">
+            </h2>
+            <!-- Box with cards -->
+            <div class="second-section__cards-box">
+                <!-- Box cards item -->
+                <div class="second-section__cards-item cards-item ">
+                    <img src="img/gytar1.png" alt="" class="cards-item__img">
+                    <p class="cards-item__text">Электро <br> гитара</p>
+                </div>
+                <div class="second-section__cards-item cards-item cards-item_orange"><img src="img/gytar2.png" alt=""
+                        class="cards-item__img">
+                    <p class="cards-item__text">Акустическая <br>
+                        гитара</p>
+                </div>
+                <div class="second-section__cards-item cards-item cards-item_blue"><img src="img/gytar3.png" alt=""
+                        class="cards-item__img">
+                    <p class="cards-item__text">Укулеле <br>
+                        гитара</p>
+                </div>
+            </div>
+            <!-- box with icon and achives -->
+            <div class="second-section__icon-box">
+                <div class="second-section__icon-item icon-item">
+                    <img src="icons/icon1.svg" alt="" class="icon-item__img">
+                    <div>
+                        <p class="icon-item__text">
+                        <div class="upper">7</div>лет преподования</p>
+                    </div>
+                </div>
+                <div class="second-section__icon-item icon-item">
+                    <img src="icons/icon2.svg" alt="" class="icon-item__img">
+                    <div>
+                        <p class="icon-item__text">
+                        <div class="upper">276</div>Отзывов на 5 звезд</p>
+                    </div>
+                </div>
+                <div class="second-section__icon-item icon-item">
+                    <img src="icons/icon3.svg" alt="" class="icon-item__img">
+                    <div>
+                        <p class="icon-item__text">
+                        <div class="upper">314</div>Студентов обученно</p>
+                    </div>
+                </div>
+                <div class="second-section__icon-item icon-item">
+                    <img src="icons/icon4.svg" alt="" class="icon-item__img">
+                    <div>
+                        <p class="icon-item__text">
+                        <div class="upper">2000</div>часов преподавания</p>
+                    </div>
+                </div>
+            </div>
+            <!-- decorations -->
+            <div class="second-section__circle circle">
+                <div class="circle__subtract"></div>
+            </div>
+
+            <div class="second-section__second-circle circle circle_big">
+                <div class="circle__subtract circle__subtract_big"></div>
+            </div>
+        </div>
+        <!-- end 2nd section -->
+    </section>
+    <!-- 3rd section -->
+
+    <section id="teach" class="third-section section">
+        <div class="container third-section__container">
+            <!-- left wrapper -->
+            <div class="third-section__left-wrapper">
+                <!-- left header -->
+                <h3 class="third-section__left-title title">Обучение
+                    <hr class="title__hr">
+                </h3>
+                <img src="img/decorotive_circle.svg" alt="decorative_circle" class="third-section__img">
+
+                <div class="third-section__circle circle">
+                    <div class="circle__subtract"></div>
+                </div>
+    
+
+            </div>
+            <!-- right wrapper -->
+            <div class="third-section__right-wrapper">
+                    <!-- right title -->
+                <h4 class="third-section__right-title title">Готовлю <br> виртуозов
+                    <hr class="title__hr title__hr_top">
+                </h4>
+                <p class="third-section__text">Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Товарищи! реализация намеченных плановых заданий позволяет выполнять важные задания по разработке систем массового участия. <br> <br>Повседневная практика показывает, что рамки и место обучения кадров позволяет оценить значение новых предложений. Не следует, однако забывать, что рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия.</p>
+                <!-- buttons -->
+                    <div class="right-wrapper__button buttons">
+                        <button class="buttons__main-btn">Забронировать <br> урок</button>
+                        <div class="right-wrapper__icon-btn buttons__icon-btn">
+                            <img src="img/icon_chat.svg" alt="">
+                            <p class="buttons_text">Есть <br> вопросы?</p>
+                        </div>
+                    </div>
+            </div>
+            <!-- decorations -->
+            <div class="third-section__second-circle circle circle_big">
+                <div class="circle__subtract circle__subtract_big"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-fot" class="footer">
+        <div class="container footer__container">
+            <img src="img/footer.png" alt="" class="footer__img">
+            <div class="footer__wrapper">
+                <h5 class="footer__title title">Запишись на <br> пробный урок
+                    <hr class="title__hr title__hr_top">
+                </h5>
+                <div class="right-wrapper__icons-box icons footer_icons">
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <div class="icons__item">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+
+</html>
